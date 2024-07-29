@@ -1,0 +1,28 @@
+
+œ	java:S135ï"YReduce the total number of break and continue statements in this loop to use at most one.(¢Ëµ8Šıí—Œ2J$3afe6b5d-5db4-4343-b708-731d5bbfc47f
+ 	java:S127û"XRefactor the code in order to not assign to this loop counter from within the loop body.(ò²èåıÿÿÿÿ8‹ıí—Œ2J$20541d40-9e9d-45c2-8bda-07b145a4c024
+ 	java:S127‚"XRefactor the code in order to not assign to this loop counter from within the loop body.(£‘…óùÿÿÿÿ8‹ıí—Œ2J$483f3f8a-2b0f-41cd-8d37-76c5eed4c82f
+v
+java:S1199€"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ıí—Œ2J$f487a680-26ca-493b-ae12-b05d84447700
+~	java:S125"<This block of commented-out lines of code should be removed.(Î°ş‹8Øÿí—Œ2J$b8672334-4ea8-42ee-992a-0db22038eb9c
+~	java:S125"<This block of commented-out lines of code should be removed.(ß²Ş¹8Øÿí—Œ2J$9661e37e-0010-4a67-8fa9-0d564c3b4221
+~	java:S125"<This block of commented-out lines of code should be removed.(ÿÌÙÔ8Øÿí—Œ2J$235c062a-d702-491c-a938-020ddc95f6c8
+~	java:S125"<This block of commented-out lines of code should be removed.(î‘½ß8Øÿí—Œ2J$b43add07-9d5a-4f9c-a179-f864ac3a87f3
+~	java:S125!"<This block of commented-out lines of code should be removed.(Œ¤Ü8Øÿí—Œ2J$5ac3626c-82d5-44cc-afa9-4a0600c17b88
+m	java:S106J"+Replace this use of System.out by a logger.(×Æáî8ßÿí—Œ2J$f4792981-aabd-433c-9747-b98a8e74f57a
+f
+java:S2119d"Save and re-use this "Random".(’ «šúÿÿÿÿ8İÿí—Œ2J$b851fedb-6704-456b-a7aa-8d143553525c
+•
+java:S3457Š"Q%n should be used in place of \n to produce the platform-specific line separator.(˜ıëÀ8ßÿí—Œ2J$6d3a53a2-b848-4514-9a7e-e8a1c4f73fe5
+n	java:S106Š"+Replace this use of System.out by a logger.(˜ıëÀ8àÿí—Œ2J$26012086-6658-4127-a294-485b3c6eddd7
+s	java:S106"+Replace this use of System.out by a logger.(Àï”Ñùÿÿÿÿ8àÿí—Œ2J$6a5ff0a8-a84d-4f08-b267-6c4efb00cb1b
+s	java:S106’"+Replace this use of System.out by a logger.(–ø‹™üÿÿÿÿ8àÿí—Œ2J$3953863f-39a4-4066-90d1-95a72ff05800
+n	java:S106•"+Replace this use of System.out by a logger.(”Ü¬8àÿí—Œ2J$45cfb7df-9be6-4ddc-aec5-e189a7af839a
+n	java:S106˜"+Replace this use of System.out by a logger.(Ö¥ó8àÿí—Œ2J$1d358b58-1343-46d8-b25e-e883dcbf44a1
+n	java:S106œ"+Replace this use of System.out by a logger.(×Æáî8àÿí—Œ2J$00fd2673-4d37-4608-aa27-1c93b1b38e59
+›
+java:S3776æ"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(êÄââşÿÿÿÿ8ãÿí—Œ2J$1c69f577-be95-447c-a49a-4869576ff627
+n	java:S106˜"+Replace this use of System.out by a logger.(õ˜ğğ8ÅÁï—Œ2J$18935187-9fb3-46b5-a802-5118ccbb6570
+n	java:S106¬"+Replace this use of System.out by a logger.(ú¯‹¹8ÚÛò—Œ2J$818c3ca5-f130-4e92-ac43-ff77ae3e7adc
+n
+java:S1144W"+Remove this unused private "square" method.(›ôÚĞ8æÿí—Œ2J$e04ec023-e9a1-4047-830b-5242643c73f2
