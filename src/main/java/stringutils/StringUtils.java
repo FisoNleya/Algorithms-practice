@@ -6,9 +6,11 @@ public class StringUtils {
 
     public static void main(String[] args) {
 
-        String testString = "aagcgddefccebfb";
+//        String testString = "aagcgddefccebfb";
+//        System.out.println(firstNonRepeatingChar(testString));
 
-        System.out.println(firstNonRepeatingChar(testString));
+
+        System.out.println(removeVowelsFromString("stripped"));
 
     }
 
@@ -46,6 +48,32 @@ public class StringUtils {
         System.out.println("First non repeating char "+str.charAt(noRepIndexes.get(0)));
 
         return noRepIndexes.get(0);
+
+    }
+
+
+
+    public static String removeVowelsFromString(String str) {
+
+        String result = "";
+
+        for (int i = 0; i < str.length(); i++) {
+
+            switch (str.charAt(i)) {
+
+                case 'a':
+                case 'e':
+                case 'i':
+                case 'o':
+                case 'u':
+                    break;
+                default:
+                    result += str.charAt(i);
+
+            }
+
+        }
+        return result;
 
     }
 
