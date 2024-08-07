@@ -1,7 +1,0 @@
-
-—
-java:S1104"TMake adjVetex a static final constant or non-public and provide accessors if needed.(Š¿É–8•·Ö®Œ2J$f25ffc7e-408c-4c50-b69f-766c19de9983
-Ž	java:S116	"LRename this field "V" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æ€ü¬8ýù†®Œ2J$fa0aab6f-c8da-4b9c-acce-4f2509bab482
-“	java:S116
-"LRename this field "E" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†ÇÖúúÿÿÿÿ8¶õˆ®Œ2J$3542912a-f509-4625-9ae3-6ee78c05fb01
-r	java:S106)"+Replace this use of System.out by a logger.(åö¡½úÿÿÿÿ8ýù†®Œ2J$56e65aa9-5395-4aa0-921f-1a10dbba6252
