@@ -78,4 +78,32 @@ public class StringUtils {
     }
 
 
+    //Not good, LeetCode 58
+    public int lengthOfLastWordBruteForce(String s) {
+
+        boolean lastWordEnded = true;
+        int lastWordLength = 0;
+
+        for(int i = 0; i < s.length(); i++){
+
+            char currChar = s.charAt(i);
+
+            if(lastWordEnded &&  currChar != ' '){
+                lastWordLength = 0;
+            }
+
+            if(currChar != ' '){
+                lastWordLength++;
+                lastWordEnded = false;
+            } else
+            {
+                lastWordEnded = true;
+            }
+
+        }
+        return lastWordLength;
+
+    }
+
+
 }
