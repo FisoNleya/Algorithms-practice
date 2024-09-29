@@ -98,10 +98,47 @@ public class LinkedList {
                 current = current.next;
             }
 
-
-
         }
     }
 
+    public int binaryToDecimal(){
+
+        Node current = head;
+        int sum = 0;
+        int index = length -1;
+
+        while(current != null){
+            double value = Math.pow(2, index--) * current.value;
+            sum += (double) value;
+            current = current.next;
+        }
+
+        return sum;
+    }
+
+    /***
+     * Trick
+     * To convert from binary to decimal from right to left ,
+     * double the current value of sum and then and the current node value
+     */
+
+    public int binaryToDecimalB(){
+
+        Node current = head;
+        int sum = 0;
+
+        while(current != null){
+            sum = (sum * 2) + current.value;
+            current = current.next;
+        }
+
+        return sum;
+    }
+
+
+    public void reverseBetween(int m, int n) {
+        // Your implementation here
+
+    }
 
 }
