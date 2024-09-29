@@ -137,7 +137,56 @@ public class LinkedList {
 
 
     public void reverseBetween(int m, int n) {
+        // 1-> 2-> 3-> 4-> 5
+        // 1->4 ->3 ->2 -> 5
+
         // Your implementation here
+        Node current  = head;
+        Node afterM = null;
+        Node nNode = null;
+        Node mNode = null;
+        Node beforeM = null;
+
+        Node prev = null;
+        int index = 0;
+        while(current != null){
+
+
+
+            Node next = current.next;
+
+            if(index > m && index < n){
+                current.next = prev;
+
+            }else if(index == m){
+                mNode = current;
+                beforeM = prev;
+
+                if(beforeM != null)
+                    beforeM.next = null;
+
+            }else if (index == n){
+                nNode = current;
+                afterM = current.next;
+                current.next = prev;
+            }
+
+
+            prev = current;
+            current = next;
+            index++;
+        }
+
+
+        if(beforeM != null)
+            beforeM.next = nNode;
+
+        if(mNode != null)
+            mNode.next = afterM;
+
+        if(m == 0){
+            head = nNode;
+        }
 
     }
 
